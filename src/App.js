@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Accordian from './components/accordian/accordian';
+import Random_color from './components/randomcolor/random_color';
+import Star_rating from './components/star_rating/star_rating';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Star_rating starno={10}/>
     </div>
   );
 }

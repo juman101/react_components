@@ -1,0 +1,21 @@
+.acc{
+       display: flex;
+      flex-direction: column; /* Set the flex direction to column */
+      justify-content: space-between; /* Adjust as needed */
+      align-items: center; /* Adjust as needed */
+      background-color: aqua;
+      margin: 10px;
+      padding: 10px;
+      
+}
+
+.q{
+      display: flex;
+     flex-direction: column; /* Set the flex direction to column */
+     justify-content: space-between; /* Adjust as needed */
+     align-items: center; 
+     background-color: rgb(36, 197, 197);
+     margin: 10px;
+     padding: 10px;
+     
+}
