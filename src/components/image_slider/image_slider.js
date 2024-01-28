@@ -60,7 +60,7 @@ else setcurrslide(currentSlide+1);
          onClick={handlePrevious}
         className="arrow arrow-left"
       />
- {images && images.length
+ {images && images.length>0
         ? images.map((imageItem, index) => (
             <img
               key={imageItem.id}
