@@ -7,10 +7,11 @@ import IS from './components/image_slider/image_slider';
 import LM from './components/load_more/load_more';
 import DN from './components/dynamic_nav/index';
 import Change_Theme from './components/change_theme/index';
+import Uf from './custom_hooks/Use_fetch/test';
 function App() {
   return (
     <div className="App">
-     <Change_Theme/>
+     <Uf/>
     </div>
   );
 }
